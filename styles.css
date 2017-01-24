@@ -1,0 +1,43 @@
+body{
+color: red;
+	background-color: linen;
+	font-family: "courier new";
+}
+p:first-of-type {
+    border-style: dotted;
+    border-width: 4px;
+}
+
+h1{
+	color: blue;
+	margin-left: 20px;
+	font-family: "verdana";
+}
+p {
+    padding-top: 30px;
+    }
+
+a:link{
+	color:red;
+	text-decoration: none;
+	background-color: lightblue;
+}
+a:visited {
+    text-decoration: none;
+    background-color: lightblue;
+}
+
+a:hover {
+    text-decoration: none;
+    color:black;
+    background-color: yellow;
+}
+
+a:active {
+    text-decoration: none;
+    background-color: yellow;
+}
+
+.highlight:hover {
+	background-color: lightblue;
+}
